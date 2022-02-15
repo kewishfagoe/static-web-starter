@@ -1,0 +1,15 @@
+{
+  "name": "static-web-starter",
+  "version": "1.0.0",
+  "description": "This project serves as a simple starting point for myself to prototype small static front-end designs.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start --server 'src' --files 'src'"
+  },
+  "keywords": [],
+  "author": "Kewish Fagoe",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.7"
+  }
+}

@@ -1,0 +1,9 @@
+# Ignore installed npm modules/dependencies
+node_modules/
+
+# Ignore sensitive environment config file
+.env
+
+# Ignore folders from source code editors
+.vscode
+.idea

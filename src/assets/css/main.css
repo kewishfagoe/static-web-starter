@@ -1,0 +1,114 @@
+/************************
+  Define Custom Font Family
+************************/
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Inter-Web/Inter-Regular.woff2?v=3.19") format("woff2"),
+       url("../fonts/Inter-Web/Inter-Regular.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Inter-Web/Inter-Bold.woff2?v=3.19") format("woff2"),
+       url("../fonts/Inter-Web/Inter-Bold.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/Inter-Web/Inter-ExtraBold.woff2?v=3.19") format("woff2"),
+       url("../fonts/Inter-Web/Inter-ExtraBold.woff?v=3.19") format("woff");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Inter-Web/Inter-Italic.woff2?v=3.19") format("woff2"),
+       url("../fonts/Inter-Web/Inter-Italic.woff?v=3.19") format("woff");
+}
+
+
+/************************
+  Declare Global CSS Variables
+************************/
+:root {
+  --main-bg-color: #f8fafc;
+  --text-color: rgb(36, 41, 56);
+  --link-color: #0000EE;
+}
+
+
+/************************
+  Apply Custom Font
+************************/
+html, body {
+	font-family: 'Inter','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/************************
+  CSS Reset
+************************/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+
+/************************
+  Mobile Styles
+************************/
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
+
+/************************
+  Tablet Styles
+************************/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+}
+
+/************************
+  Desktop Styles
+************************/
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: var(--main-bg-color); /* Main Background Color */
+  }
+}
