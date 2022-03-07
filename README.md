@@ -10,8 +10,8 @@ Using Browsersync as a mini server for live reloading on file changes.
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Link Color | ![#0a192f](https://via.placeholder.com/10/0000EE?text=+) #0000EE |
 | Background Color | ![#f8f8f8](https://via.placeholder.com/10/f8fafc?text=+) #f8fafc |
+| Link Color | ![#0a192f](https://via.placeholder.com/10/0000EE?text=+) #0000EE |
 | Text Color | ![#00b48a](https://via.placeholder.com/10/242938?text=+) #242938 |
 
 
